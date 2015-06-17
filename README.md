@@ -1,6 +1,7 @@
 # icaopan
 
 
+
 Create virtualenv
 -----------------
     $ pip install virtualenv --index-url http://pypi.tuna.tsinghua.edu.cn/simple
@@ -8,8 +9,11 @@ Create virtualenv
     $ source ../env/bin/activate
 
 
-Install python packages
------------------
+Download code：
+    $ git clone https://github.com/hivencent/icaopan.git
+    $ git add .       #添加修改代码
+    $ git commit -m 'test'        #提交修改代码
+    $ git push origin master          #提交到远程仓库
 
 
 Install packages
@@ -19,11 +23,6 @@ Install packages
     2. 安装第三方包：
        $ pip install -r requirements.txt --index-url http://pypi.tuna.tsinghua.edu.cn/simple
 
-Download code：
-    git clone https://github.com/hivencent/icaopan.git
-    git add .       #添加修改代码
-    git commit -m 'test'        #提交修改代码
-    git push origin master          #提交到远程仓库
 
 
 
