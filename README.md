@@ -10,10 +10,10 @@ Create virtualenv
 
 
 Download code：
-    $ git clone https://github.com/hivencent/icaopan.git
-    $ git add .       #添加修改代码
-    $ git commit -m 'test'        #提交修改代码
-    $ git push origin master          #提交到远程仓库
+    1. git clone https://github.com/hivencent/icaopan.git
+    2. git add .       #添加修改代码
+    3. git commit -m 'test'        #提交修改代码
+    4. git push origin master          #提交到远程仓库
 
 
 Install packages
