@@ -7,7 +7,9 @@ import requests
 import web
 import datetime
 
+
 db = web.database(host="192.168.1.15", port=3307, dbn='mysql', user='admin', pw='12345678', db='elf_test')
+
 
 # symbol = raw_input("input symbol: ")
 symbol = "600000"
